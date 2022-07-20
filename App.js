@@ -9,6 +9,10 @@ import Count from './components/Count'
 import InputText from './components/InputText'
 import UsernameAndPassword from './components/UsernameAndPassword'
 import UserNamePassword from './components/UserNamePassword'
+import AlertComponent from './components/AlertComponent'
+import ImageWithTextInput from './components/ImageWithTextInput'
+import ButtonExample from './components/ButtonExample'
+import Touchable_Example from './components/Touchable_Example'
 
 const App = () => {
   return (
@@ -21,7 +25,11 @@ const App = () => {
       {/*<Count/>*/}
       {/*<InputText/> */}
       {/*<UsernameAndPassword/>*/}
-      <UserNamePassword/>
+      {/*<UserNamePassword/>*/}
+      {/*<AlertComponent/>*/}
+      {/*<ImageWithTextInput/>*/}
+      {/*<ButtonExample/> */}
+      <Touchable_Example/>
     </View>
   )
 }
