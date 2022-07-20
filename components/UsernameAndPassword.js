@@ -10,6 +10,7 @@ const UsernameAndPassword = () => {
                 +"\nPassword : "+passWord)
       }
 
+
   return (
     <View style={{flex:1,marginTop:20,alignItems:'center'}}>
       <TextInput 
