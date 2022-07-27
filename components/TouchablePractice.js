@@ -1,9 +1,7 @@
 import { StyleSheet, Text, View ,SafeAreaView ,Image,TouchableOpacity,TouchableWithoutFeedback} from 'react-native'
 import React from 'react'
 
-const Separator = () => (
-    <View style={styles.buttonIconSeparatorStyle}/>
-)
+
 const TouchablePractice = () => {
 
   return (
@@ -20,7 +18,7 @@ const TouchablePractice = () => {
                 source={require('../assets/facebook.png')}
                 style ={styles.buttonImageIconStyle}
                 />
-                <Separator/>
+                <View style={styles.buttonIconSeparatorStyle}/>
                 <Text style={styles.buttonTextStyle}>Login Using Facebook</Text> 
         </TouchableOpacity>
 
@@ -31,7 +29,7 @@ const TouchablePractice = () => {
                 source={require('../assets/google-plus.png')}
                 style ={styles.buttonImageIconStyle}
                 />
-                <Separator/>
+                <View style={styles.buttonIconSeparatorStyle}/>
                 <Text style={styles.buttonTextStyle}>Login Using Google Plus</Text> 
         </TouchableOpacity>
 
@@ -52,7 +50,7 @@ const styles = StyleSheet.create({
     buttonGPlusStyle: {
         flexDirection: 'row',
         alignItems: 'center',
-        backgroundColor: '#dc4e41',
+        backgroundColor: '#dc4e43',
         borderWidth: 0.5,
         borderColor: '#fff',
         height: 40,
